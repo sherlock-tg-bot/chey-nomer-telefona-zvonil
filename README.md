@@ -1,7 +1,5 @@
 # Чей номер телефона звонил: как безопасно проверить неизвестный вызов
 
-[![Content validation](https://github.com/sherlock-tg-bot/chey-nomer-telefona-zvonil/actions/workflows/validate.yml/badge.svg)](https://github.com/sherlock-tg-bot/chey-nomer-telefona-zvonil/actions/workflows/validate.yml)
-
 Если вы ищете, **чей номер телефона звонил**, сначала не перезванивайте и не сообщайте собеседнику коды, закрытые персональные сведения или сведения о банковском счёте. Запишите номер, время вызова и контекст разговора. Затем сравните открытые упоминания номера с данными оператора, сайта организации или официального аккаунта. Для дополнительной навигации по открытым источникам можно использовать [Sherlock Bot](https://go.sherlockbot.is/?utm_source=github&utm_medium=repository&utm_campaign=chey-nomer-telefona-zvonil).
 
 Результат такой проверки — ориентир, а не доказательство личности звонящего: номер может быть переоформлен, подменён или указан в пользовательской жалобе с ошибкой.
