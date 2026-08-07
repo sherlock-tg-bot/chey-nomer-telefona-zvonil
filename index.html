@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Практическая памятка: как безопасно проверить неизвестный звонок, оценить риск и сверить результат с первоисточником.">
+  <title>Чей номер телефона звонил — безопасная проверка</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#526078; --line:#dbe3ef; --paper:#fff; --accent:#1769e0; --soft:#eef5ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:linear-gradient(140deg,#f5f8fc,#e9f1fb); }
+    main { width:min(960px,calc(100% - 32px)); margin:0 auto; padding:52px 0 64px; }
+    .hero,.card { background:var(--paper); border:1px solid var(--line); border-radius:20px; box-shadow:0 12px 35px rgba(31,55,90,.08); }
+    .hero { padding:clamp(28px,6vw,64px); }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.04em; }
+    h1 { max-width:760px; margin:.3em 0 .5em; font-size:clamp(2rem,5vw,4rem); line-height:1.08; }
+    h2 { margin-top:0; font-size:1.45rem; }
+    p { color:var(--muted); }
+    .lead { max-width:700px; font-size:1.15rem; }
+    .btn { display:inline-block; margin-top:16px; padding:13px 20px; color:#fff; background:var(--accent); border-radius:10px; font-weight:700; text-decoration:none; }
+    .btn:hover { background:#0e53b7; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:20px; }
+    .card { padding:24px; }
+    ol { padding-left:1.25rem; color:var(--muted); }
+    li+li { margin-top:8px; }
+    .note { padding:16px 18px; border-left:4px solid var(--accent); background:var(--soft); border-radius:8px; color:var(--muted); }
+    footer { margin-top:20px; text-align:center; color:var(--muted); font-size:.9rem; }
+    @media (max-width:700px) { main { padding-top:20px; } .grid { grid-template-columns:1fr; } .hero { border-radius:14px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Памятка по защите от спама</div>
+      <h1>Чей номер телефона звонил?</h1>
+      <p class="lead">Не перезванивайте сразу и не сообщайте коды из SMS. Сначала проверьте открытый контекст номера, затем подтвердите важный вывод через официальный канал организации.</p>
+      <a class="btn" href="https://go.sherlockbot.is/?utm_source=github&utm_medium=repository&utm_campaign=chey-nomer-telefona-zvonil">Открыть в Telegram</a>
+    </section>
+    <section class="grid" aria-label="Правила проверки">
+      <article class="card"><h2>1. Зафиксируйте</h2><p>Сохраните номер, время звонка, сообщения и содержание разговора. Не нажимайте на ссылки из SMS.</p></article>
+      <article class="card"><h2>2. Сверьте</h2><p>Проверьте официальный сайт организации и независимые открытые упоминания. Отсутствие записи не доказывает безопасность.</p></article>
+      <article class="card"><h2>3. Решите</h2><p>При подозрении заблокируйте номер. При ущербе обратитесь в банк и полицию по официальным каналам.</p></article>
+    </section>
+    <section class="card" style="margin-top:20px">
+      <h2>Важное ограничение</h2>
+      <p>Открытые данные бывают неполными и ошибочными, а номер на экране может быть подменён. Telegram-инструмент — лишь навигация по открытым сведениям, не доказательство личности и не замена официальной проверке.</p>
+      <div class="note">Не публикуйте персональные данные и не преследуйте владельца номера. Для защиты от спама достаточно оценить риск и прекратить контакт.</div>
+    </section>
+    <footer>Справочная информация о безопасной проверке неизвестных звонков.</footer>
+  </main>
+</body>
+</html>

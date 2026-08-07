@@ -1,0 +1,22 @@
+{
+  "position": 18,
+  "keyword": "чей номер телефона звонил",
+  "slug": "chey-nomer-telefona-zvonil",
+  "category": "Защита от спама",
+  "volume": 190000,
+  "demand": "Высокий",
+  "intent": "privacy_safety",
+  "product": "Sherlock Bot",
+  "target_base": "https://go.sherlockbot.is/",
+  "target_url": "https://go.sherlockbot.is/?utm_source=github&utm_medium=repository&utm_campaign=chey-nomer-telefona-zvonil",
+  "repository_description": "Чей номер телефона звонил: практическое руководство, ограничения метода и проверка результата по первоисточнику.",
+  "repository_topics": [
+    "open-source-intelligence",
+    "digital-safety",
+    "russian-guide",
+    "sherlock-bot",
+    "telegram-bot",
+    "privacy",
+    "cybersecurity"
+  ]
+}
